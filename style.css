@@ -1,0 +1,224 @@
+body {
+  background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 12px;
+}
+
+small {
+  font-size: 10px;
+}
+
+label {
+  font-size: 14px;
+  color: #404040;
+}
+
+input {
+  display: block;
+  border: 1px solid #c7c7c7;
+  height: 32px;
+  border-radius: 3px;
+  width: 296px;
+  margin-top: 15px;
+}
+
+input:focus {
+  border: 1px solid #52abec;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075)
+  inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.container span {
+  padding-top: 30px;
+}
+
+.field {
+  display:flex;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  width: 300px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+button {
+  width: 300px;
+  height: 44px;
+  background-color: #0077C5;
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.title-area {
+  text-align: center;
+}
+
+.captcha {
+  background-color: #ECEEF1;
+  width: 360px;
+  padding-top: 15px;
+  margin: 0 -30px -30px -30px;
+  height: 40px;
+}
+
+.captcha small {
+  margin: 0 30px;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  font-style: italic;
+  color: #757575;
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+  height: 35px;
+}
+
+.navbar {
+  padding: 10px 0;
+  height: 40px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.navbar p {
+  margin: 0;
+  padding: 0;
+  color: #505050;
+}
+
+.links {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.header > a {
+  display: block;
+  margin: 0 auto;
+  background-image: url(index.png);
+  width: 118px;
+  height: 35px;
+  background-position: 0 0;
+}
+
+.turbotax {
+  background-image: url(index.png);
+  width: 100px;
+  height: 35px;
+  background-position: 0 35px;
+}
+
+.quickbooks {
+  background-image: url(index.png);
+  width: 125px;
+  height: 35px;
+  background-position: -115px 35px;
+  margin-right: 10px;
+}
+
+.mint {
+  background-image: url(index.png);
+  width: 70px;
+  height: 35px;
+  background-position: -252px 35px;
+  margin-right: 10px;
+}
+
+.lock {
+  background-image: url(lock.png);
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 39px;
+  left: 267px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navbar button {
+  width: 100px;
+  height: 36px;
+  border: 1px solid #4c4c4c;
+  border-radius: 5px;
+}
+
+.navbar span {
+  margin-right: 20px;
+}
+
+.self-standing {
+  margin-top: 20px;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.self-standing span {
+  margin-right: 10px;
+}
+.self-standing span:last-of-type {
+  margin-right: 0;
+}
+
+.self-standing p {
+  line-height: 1.5em;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 0px;
+  right: 5%;
+}
+
+.sticky-button {
+  width: 124px;
+  background-color: #6B6C72;
+}
